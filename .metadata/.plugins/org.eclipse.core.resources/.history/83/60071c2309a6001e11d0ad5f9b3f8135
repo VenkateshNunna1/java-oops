@@ -1,0 +1,37 @@
+package com.java.StaticAndNonstatic;
+class Human{
+	String name;
+	String serName;
+	String gender;
+	int age;
+	Human(String name,String serName,String gender,int age){
+		this.name = name;
+		this.serName=serName;
+		this.gender=gender;
+		this.age=age;
+	}
+	void displayHuman() {
+		System.out.println(name + serName + gender + age);
+	}
+}
+class Teacher extends Human{
+     String designation;
+     String companyName;
+	public Teacher(String name1, String serName1, String gender1, int age1, String designation, String companyName) {
+		this.name = name1;
+		this.serName=serName1;
+		this.gender=gender1;
+		this.age=age1;
+		this.designation = designation;
+		this.companyName = companyName;
+	}
+	
+	
+}
+public class Main {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
